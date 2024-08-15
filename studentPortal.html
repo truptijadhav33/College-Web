@@ -164,16 +164,16 @@
         <div class="hero-image">
           <div class="hero-text">
             <div class="container card" style="opacity: 0.8; padding: 20px">
-              <form name="StudloginForm" method="POST" action="server.php">
+              <form name="StudloginForm" method="POST" action="assets\php\student_data.php">
                 <div>
                   <label for="uname" style="float: left"
-                    ><h5>Email Address</h5></label
+                    ><h5>Username</h5></label
                   >
                   <input
                     type="text"
                     id="uname"
                     name="uname"
-                    placeholder="abc@gmail.com"
+                    placeholder="Enter Enrollment Number"
                     class="text-blue"
                   />
                 </div>
@@ -226,7 +226,7 @@
     <script type="text/javascript">
       function validateLoginFields() {
         if (document.StudloginForm.uname.value === "") {
-          alert("Please enter your email address.");
+          alert("Please enter your Enrollment Number.");
           document.StudloginForm.uname.focus();
           return false;
         }

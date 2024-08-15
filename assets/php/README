@@ -1,0 +1,21 @@
+ Uncomment this if you are running this on new system !
+ on line No 15 and below code to create a database into 
+ local system.
+
+ // # Creating a table 
+// Uncomment if running on new system 
+line No 28 and below :
+
+# Remember that username is  --entrollment number-- of the student 
+#and his *seat number + *roll number will be the password of his !
+kkk
+
+
+table : 
+// Display student data as a table
+        echo "<table border='1'>";
+        echo "<tr><th>Field</th><th>Value</th></tr>";
+        
+        foreach ($student_data as $key => $value) {
+            echo "<tr><td>$key</td><td>$value</td></tr>";
+        }
